@@ -1,0 +1,86 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: "Poppins", sans-serif;
+}
+.light-header {
+  color: hsl(229, 6%, 66%);
+  font-weight: 100;
+}
+.dark-header {
+  color: hsl(234, 12%, 34%);
+  font-weight: bold;
+}
+.card {
+  height: 300px;
+  /* margin: 1rem; */
+  /* margin: auto; */
+  width: 300px;
+  box-shadow: 0px 1px 6px 4px hsl(234deg 12% 34% / 30%);
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.card img {
+  height: fit-content;
+  width: fit-content;
+  /* object-fit: cover; */
+  text-align: right;
+  margin-left: auto;
+  justify-self: end;
+  padding: 10px;
+}
+
+.text-header {
+  color: hsl(229, 6%, 66%);
+}
+.heading {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+.card1 {
+  /* background-color: red; */
+  border-top: hsl(0, 78%, 62%) 2px solid;
+}
+.card2 {
+  border-top: hsl(180, 62%, 55%) 2px solid;
+  /* background-color: blue; */
+}
+.card3 {
+  /* background-color: green; */
+  border-top: hsl(34, 97%, 64%) 2px solid;
+}
+.card4 {
+  /* background-color: yellow; */
+  border-top: hsl(212, 86%, 64%) 2px solid;
+}
+.parent {
+  display: flex;
+  /* margin: auto; */
+  justify-content: center;
+}
+.parent1,
+.parent2,
+.parent3 {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.parent1,
+.parent3 {
+  transform: translateY(50%);
+}
+.parent2 {
+  gap: 3rem;
+}
+.card h1 {
+  color: hsl(234, 12%, 34%);
+}
+.card p {
+  color: hsl(229, 6%, 66%);
+}
